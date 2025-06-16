@@ -3,7 +3,7 @@ This repository is based on traffic forecasting on the LargeST: A Benchmark Data
 
 You can download all data from the provided [link](https://www.kaggle.com/datasets/liuxu77/largest).
 
-The Variational Mode Decomposition method is proposed by Konstantin Dragomiretskiy and Dominique Zosso  [Link](https://ieeexplore.ieee.org/document/6655981) to determine the modes of the signals. Vmdpy tool in Numpy [Link](https://github.com/vrcarva/vmdpy) is used in our code. The paper link for this tool is [Link](https://www.sciencedirect.com/science/article/pii/S1746809420302299?via%3Dihub).
+The Variational Mode Decomposition method is proposed by Konstantin Dragomiretskiy and Dominique Zosso  [Link](https://ieeexplore.ieee.org/document/6655981) to determine the modes of the signals.
 
 In our work, we make learnable parameters for VMD and unfold this iterative algorithm. 
 
