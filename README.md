@@ -59,5 +59,13 @@ python experiments/astgcn/main.py --device cuda:0 --model_name astgcn --dataset 
 #### Citation
 If you find our work helpful in your research work, please cite:
 ```
-
+@misc{ahmad2025robustspatiotemporalforecastingusing,
+      title={Robust Spatiotemporal Forecasting Using Adaptive Deep-Unfolded Variational Mode Decomposition}, 
+      author={Osama Ahmad and Lukas Wesemann and Fabian Waschkowski and Zubair Khalid},
+      year={2025},
+      eprint={2509.00703},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2509.00703}, 
+}
 ```
