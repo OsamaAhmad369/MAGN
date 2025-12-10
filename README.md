@@ -25,6 +25,11 @@ We describe the generation of the GLA dataset as an example. Please first go thr
 python generate_data_for_training.py --dataset gla --years 2019
 ```
 It will generate the files in `/data/gla/2019/his.npz` and other supporting files. Copy `his.npz` file and place in main directory. 
+```
+main
+|-- uvmd.py
+|-- src |-- models |-- astgcn.py
+```
 ## Main Code
 The main architecture consists of two main compoenents: decomposition of spatiotemporal data and deep neural network:
 
